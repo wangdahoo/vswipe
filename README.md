@@ -6,7 +6,8 @@
 
 ``` bash
 # install dependencies
-npm install
+npm install -g yarn
+yarn
 
 # serve with hot reload at localhost:8080
 npm run dev
