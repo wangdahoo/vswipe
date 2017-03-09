@@ -65,29 +65,4 @@ a {
 html, body {
   background: #f3f3f3;
 }
-
-#console {
-  font-size: 12px;
-  font-family:"Inconsolata", "Monaco", "Consolas", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
-  color: #999;
-  line-height: 18px;
-  margin-top: 20px;
-  max-height: 150px;
-  overflow: auto;
-}
-
-#mySwipe div b {
-  display:block;
-  font-weight:bold;
-  color:#14ADE5;
-  font-size:20px;
-  text-align:center;
-  margin:10px;
-  padding:100px 10px;
-  box-shadow: 0 1px #EBEBEB;
-  background: #fff;
-  border-radius: 3px;
-  border: 1px solid;
-  border-color: #E5E5E5 #D3D3D3 #B9C1C6;
-}
 </style>
