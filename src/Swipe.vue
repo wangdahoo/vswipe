@@ -19,7 +19,20 @@
 <script>
   import Swipe from 'swipe-js-iso'
 
+  function noop () {}
+
   export default {
+    props: {
+      startSlide: { type: Number, default: 0 },
+      speed: { type: Number, default: 400 },
+      auto: { type: Number, default: 3000 },
+      continuous: { type: Boolean, default: true },
+      disableScroll: { type: Boolean, default: false },
+      stopPropagation: { type: Boolean, default: false },
+      callback: { type: Function, default: noop },
+      transitionEnd: { type: Function, default: noop }
+    },
+
     data () {
       return {
         swipe: undefined
@@ -27,7 +40,7 @@
     },
 
     mounted () {
-      this.swipe = Swipe(this.$el)
+      this.swipe = new Swipe(this.$el, this.props)
     },
 
     destroyed () {
@@ -41,6 +54,18 @@
 
       next () {
         if (this.swipe) this.swipe.next()
+      },
+
+      getPos () {
+        return this.swipe.getPos()
+      },
+
+      getNumSlides () {
+        return this.swipe.getNumSlides()
+      },
+
+      slide (index, duration) {
+        this.swipe.slide(index, duration)
       }
     }
   }
