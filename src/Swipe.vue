@@ -44,7 +44,7 @@
     },
 
     destroyed () {
-      this.swipe.destroy()
+      this.swipe.kill()
     },
 
     methods: {
