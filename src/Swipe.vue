@@ -41,10 +41,10 @@
     },
 
     mounted () {
-      this.swipe = new Swipe(this.$el, this.props)
       if (this.cssClass) {
         this.$el.classList.add(this.cssClass)
       }
+      this.swipe = new Swipe(this.$el, this.props)
     },
 
     destroyed () {
