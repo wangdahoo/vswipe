@@ -30,7 +30,8 @@
       disableScroll: { type: Boolean, default: false },
       stopPropagation: { type: Boolean, default: false },
       callback: { type: Function, default: noop },
-      transitionEnd: { type: Function, default: noop }
+      transitionEnd: { type: Function, default: noop },
+      cssClass: {type: String, default: ''}
     },
 
     data () {
@@ -40,6 +41,9 @@
     },
 
     mounted () {
+      if (this.cssClass) {
+        this.$el.classList.add(this.cssClass)
+      }
       this.swipe = new Swipe(this.$el, this.props)
     },
 
