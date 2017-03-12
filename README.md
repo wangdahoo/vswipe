@@ -1,4 +1,4 @@
-# vue-swipe
+# VSwipe.js
 
 > Brad Birdsall's Swipe.js as a Vue component.
 
