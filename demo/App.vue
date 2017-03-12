@@ -53,9 +53,11 @@ html, body, #app {
 }
 
 #app .code-name {
+  height: 100px;
+  padding: 60px 0 0 0;
   text-align: center;
-  font-size: 36px;
-  line-height: 60px;
+  font-size: 40px;
+  line-height: 40px;
   color: #444;
   font-family: 'Josefin Sans', sans-serif;
 }
