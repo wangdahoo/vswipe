@@ -62,9 +62,18 @@ html, body, #app {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+#app .code-name > p {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 10px;
+  color: #888;
+}
+
 #app .code-name > sup {
   font-size: 20px;
   font-family: 'Orbitron', sans-serif;
+  color: #888;
 }
 
 html, body {

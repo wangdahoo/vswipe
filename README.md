@@ -2,9 +2,15 @@
 
 > Brad Birdsall's Swipe.js as a Vue component.
 
+## Install
+
+```bash
+npm i vswipe -S
+```
+
 ## Usage
 
-VueSwipe only need a simple pattern too. Here's an example:
+VSwipe only need a simple pattern too. Here's an example:
 
 ```html
 <swipe>
@@ -60,7 +66,7 @@ VueSwipe only need a simple pattern too. Here's an example:
 </script>
 ```
 
-## VueSwipe instance API
+## VSwipe instance API
 
 `prev()` slide to prev
 

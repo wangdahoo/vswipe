@@ -16,7 +16,7 @@ baseWebpackConfig.entry = {
 }
 
 var pkg = require('../package.json')
-var banner = 'VueSwipe ' + pkg.version + '\n' +
+var banner = 'VSwipe ' + pkg.version + '\n' +
   'Brad Birdsall\'s Swipe.js as a Vue component.'
 
 var webpackConfig = merge(baseWebpackConfig, {
@@ -29,8 +29,8 @@ var webpackConfig = merge(baseWebpackConfig, {
   devtool: config.build.productionSourceMap ? '#source-map' : false,
   output: {
     path: path.join(__dirname, '../dist'),
-    filename: 'vue-swipe.js',
-    library: 'VueSwipe',
+    filename: 'vswipe.js',
+    library: 'VSwipe',
     libraryTarget: 'umd'
   },
   plugins: [

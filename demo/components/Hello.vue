@@ -16,7 +16,13 @@
 </style>
 <template>
   <div>
-    <div class="code-name">Vue Swipe <sup>1.0</sup></div>
+    <div class="code-name">
+      VSwipe <sup>1.0</sup>
+
+      <p>
+        Brad Birdsall's Swipe.js as a Vue component.
+      </p>
+    </div>
 
     <swipe ref="mySwipe" style='max-width:500px;margin:0 auto'>
       <swipe-item><b>0</b></swipe-item>

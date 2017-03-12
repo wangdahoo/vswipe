@@ -1,6 +1,6 @@
 {
-  "name": "vue-swipe",
-  "version": "1.0.0",
+  "name": "vswipe",
+  "version": "0.1.0",
   "description": "Brad Birdsall's Swipe.js as a Vue component.",
   "author": "wangdahoo <157195705@qq.com>",
   "license": "MIT",

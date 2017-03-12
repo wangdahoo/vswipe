@@ -4,8 +4,8 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import VueSwipe from 'vue-swipe'
-Vue.use(VueSwipe)
+import VSwipe from 'vswipe'
+Vue.use(VSwipe)
 
 Vue.config.productionTip = false
 

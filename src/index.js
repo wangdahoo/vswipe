@@ -1,15 +1,15 @@
 import Swipe from './Swipe'
 import SwipeItem from './SwipeItem'
 
-let VueSwipe = {
+let VSwipe = {
   install: function (Vue, options) {
     Vue.component('swipe', Swipe)
     Vue.component('swipe-item', SwipeItem)
   }
 }
 
-export default VueSwipe
+export default VSwipe
 
 if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(VueSwipe)
+  window.Vue.use(VSwipe)
 }
