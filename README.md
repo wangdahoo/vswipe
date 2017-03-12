@@ -66,6 +66,8 @@ VSwipe only need a simple pattern too. Here's an example:
 </script>
 ```
 
+Or check this out: [https://github.com/wangdahoo/vswipe/blob/master/examples/index.html](https://github.com/wangdahoo/vswipe/blob/master/examples/index.html)
+
 ## VSwipe instance API
 
 `prev()` slide to prev
