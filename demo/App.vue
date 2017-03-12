@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <div class="code-name">Vue Swipe <sup>1.0</sup></div>
     <router-view></router-view>
   </div>
 </template>
@@ -47,6 +46,10 @@ a {
   margin:0 0 0 10px;
   font-size:12px;
   color:#3c3c3c;
+}
+
+html, body, #app {
+  height: 100%;
 }
 
 #app .code-name {

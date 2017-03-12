@@ -16,6 +16,8 @@
 </style>
 <template>
   <div>
+    <div class="code-name">Vue Swipe <sup>1.0</sup></div>
+
     <swipe ref="mySwipe" style='max-width:500px;margin:0 auto'>
       <swipe-item><b>0</b></swipe-item>
       <swipe-item><b>1</b></swipe-item>
