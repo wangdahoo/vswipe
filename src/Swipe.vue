@@ -23,14 +23,16 @@
 
   export default {
     props: {
-      startSlide: { type: Number, default: 0 },
-      speed: { type: Number, default: 400 },
-      auto: { type: Number, default: 3000 },
-      continuous: { type: Boolean, default: true },
-      disableScroll: { type: Boolean, default: false },
-      stopPropagation: { type: Boolean, default: false },
-      callback: { type: Function, default: noop },
-      transitionEnd: { type: Function, default: noop }
+      options: {
+        startSlide: { type: Number, default: 0 },
+        speed: { type: Number, default: 400 },
+        auto: { type: Number, default: 3000 },
+        continuous: { type: Boolean, default: true },
+        disableScroll: { type: Boolean, default: false },
+        stopPropagation: { type: Boolean, default: false },
+        callback: { type: Function, default: noop },
+        transitionEnd: { type: Function, default: noop }
+      }
     },
 
     data () {
@@ -40,7 +42,7 @@
     },
 
     mounted () {
-      this.swipe = new Swipe(this.$el, this.props)
+      this.swipe = new Swipe(this.$el, this.options)
     },
 
     destroyed () {

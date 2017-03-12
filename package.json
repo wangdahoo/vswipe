@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Brad Birdsall's Swipe.js as a Vue component.",
   "author": "wangdahoo <157195705@qq.com>",
-  "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
+    "publish": "node build/publish.js",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {

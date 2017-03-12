@@ -1,7 +1,7 @@
 <style>
   .swipe-item {
-    float:left;
-    width:100%;
+    float: left;
+    width: 100%;
     position: relative;
   }
 </style>
