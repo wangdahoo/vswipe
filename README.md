@@ -2,6 +2,10 @@
 
 > Brad Birdsall's Swipe.js as a Vue component.
 
+## Demo
+
+https://wangdahoo.github.io/vswipe/
+
 ## Install
 
 ```bash
