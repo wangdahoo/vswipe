@@ -1,5 +1,5 @@
 <style>
-  .swipe {
+  [vswipe] {
     overflow: hidden;
     visibility: hidden;
     position: relative;
@@ -10,7 +10,7 @@
   }
 </style>
 <template>
-  <div class='swipe'>
+  <div vswipe>
     <div class='swipe-wrap'>
       <slot></slot>
     </div>
