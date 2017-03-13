@@ -4,14 +4,14 @@
     visibility: hidden;
     position: relative;
   }
-  [vswipe-wrap] {
+  .swipe-wrap {
     overflow: hidden;
     position: relative;
   }
 </style>
 <template>
-  <div vswipe>
-    <div vswipe-wrap>
+  <div class='vswipe'>
+    <div class='swipe-wrap'>
       <slot></slot>
     </div>
   </div>
