@@ -10,7 +10,7 @@
   }
 </style>
 <template>
-  <div class='vswipe'>
+  <div vswipe>
     <div class='swipe-wrap'>
       <slot></slot>
     </div>
