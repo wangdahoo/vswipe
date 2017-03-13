@@ -1,5 +1,5 @@
 <style scoped>
-  .swipe-item b {
+  [vswipe-item] b {
     display:block;
     font-weight:bold;
     color:#14ADE5;

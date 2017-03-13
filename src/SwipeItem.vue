@@ -1,12 +1,12 @@
 <style>
-  .swipe-item {
+  [vswipe-item] {
     float: left;
     width: 100%;
     position: relative;
   }
 </style>
 <template>
-  <div class="swipe-item">
+  <div vswipe-item>
     <slot></slot>
   </div>
 </template>

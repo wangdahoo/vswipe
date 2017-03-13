@@ -1,17 +1,17 @@
 <style>
-  .swipe {
+  [vswipe] {
     overflow: hidden;
     visibility: hidden;
     position: relative;
   }
-  .swipe-wrap {
+  [vswipe-wrap] {
     overflow: hidden;
     position: relative;
   }
 </style>
 <template>
-  <div class='swipe'>
-    <div class='swipe-wrap'>
+  <div vswipe>
+    <div vswipe-wrap>
       <slot></slot>
     </div>
   </div>
