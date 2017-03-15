@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import FullScreen from '@/components/FullScreen'
+import ScrollingContent from '@/components/ScrollingContent'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/fullscreen',
       name: 'FullScreen',
       component: FullScreen
+    },
+    {
+      path: '/scrolling',
+      name: 'ScrollingContent',
+      component: ScrollingContent
     }
   ]
 })
