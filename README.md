@@ -1,6 +1,6 @@
 # VSwipe.js
 
-> Brad Birdsall's Swipe.js as a Vue component.
+> Brad Birdsall's Swipe.js as a Vue 2.0 component.
 
 ## Demo
 
@@ -11,6 +11,14 @@ https://wangdahoo.github.io/vswipe/
 ```bash
 npm i vswipe -S
 ```
+
+```js
+import Vue from 'vue'
+import VSwipe from 'vswipe'
+Vue.use(VSwipe)
+```
+
+> if you include `vswipe.js` by a `<script>` tag, you can use it directly.
 
 ## Usage
 
