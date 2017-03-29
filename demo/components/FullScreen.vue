@@ -17,11 +17,14 @@
   }
 </style>
 <template>
-  <swipe class="swipe-fullscreen" :options="swipeOptions">
-    <swipe-item style="background: #EA5A49;"></swipe-item>
-    <swipe-item style="background: #44CC00;"></swipe-item>
-    <swipe-item style="background: #FFBD17;"></swipe-item>
-  </swipe>
+  <div style="height: 100%;">
+    <back-button></back-button>
+    <swipe class="swipe-fullscreen" :options="swipeOptions">
+      <swipe-item style="background: #EA5A49;"></swipe-item>
+      <swipe-item style="background: #44CC00;"></swipe-item>
+      <swipe-item style="background: #FFBD17;"></swipe-item>
+    </swipe>
+  </div>
 </template>
 <script>
   export default {

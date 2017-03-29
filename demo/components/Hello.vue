@@ -54,6 +54,13 @@
       <button @click='prev()'>prev</button>
       <button @click='next()'>next</button>
     </div>
+
+    <ul>
+      <li style="padding-left: 10px;">Examples:</li>
+      <li><router-link to='/scrolling'>Scrolling Content</router-link></li>
+      <li><router-link to='/fullscreen'>Fullscreen</router-link></li>
+    </ul>
+
   </div>
 </template>
 <script>

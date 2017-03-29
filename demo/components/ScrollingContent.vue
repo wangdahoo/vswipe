@@ -1,19 +1,22 @@
 <template>
-  <swipe class="container">
-    <swipe-item>
-      <h1>1</h1>
-    </swipe-item>
-    <swipe-item>
-      <h1>2</h1>
-    </swipe-item>
-    <swipe-item>
-      <div class="scroll-wrap">
-        <div class="scroll">
-          <p v-for="(item, index) in list" v-text="index"></p>
+  <div style="height: 100%;">
+    <back-button></back-button>
+    <swipe class="container">
+      <swipe-item>
+        <h1>1</h1>
+      </swipe-item>
+      <swipe-item>
+        <h1>2</h1>
+      </swipe-item>
+      <swipe-item>
+        <div class="scroll-wrap">
+          <div class="scroll">
+            <p v-for="(item, index) in list" v-text="index"></p>
+          </div>
         </div>
-      </div>
-    </swipe-item>
-  </swipe>
+      </swipe-item>
+    </swipe>
+  </div>
 </template>
 <style>
   .container,

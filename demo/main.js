@@ -7,6 +7,9 @@ import router from './router'
 import VSwipe from 'vswipe'
 Vue.use(VSwipe)
 
+import BackButton from '@/components/BackButton'
+Vue.component('back-button', BackButton)
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
