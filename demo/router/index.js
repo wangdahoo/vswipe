@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import FullScreen from '@/components/FullScreen'
 import ScrollingContent from '@/components/ScrollingContent'
+import Dynamic from '@/components/Dynamic'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/scrolling',
       name: 'ScrollingContent',
       component: ScrollingContent
+    },
+    {
+      path: '/dynamic',
+      name: 'Dynamic',
+      component: Dynamic
     }
   ]
 })

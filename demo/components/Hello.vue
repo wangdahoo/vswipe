@@ -59,6 +59,7 @@
       <li style="padding-left: 10px;">Examples:</li>
       <li><router-link to='/scrolling'>Scrolling Content</router-link></li>
       <li><router-link to='/fullscreen'>Fullscreen</router-link></li>
+      <li><router-link to='/dynamic'>Dynamic Swipe Items</router-link></li>
     </ul>
 
   </div>

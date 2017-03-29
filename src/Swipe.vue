@@ -51,11 +51,11 @@
 
     methods: {
       prev () {
-        if (this.swipe) this.swipe.prev()
+        this.swipe.prev()
       },
 
       next () {
-        if (this.swipe) this.swipe.next()
+        this.swipe.next()
       },
 
       getPos () {
@@ -68,6 +68,10 @@
 
       slide (index, duration) {
         this.swipe.slide(index, duration)
+      },
+
+      resize () {
+        setTimeout(this.swipe.setup, 0)
       }
     }
   }
